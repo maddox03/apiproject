@@ -9,6 +9,8 @@ gem 'pg'
 gem "inherited_resources", "~> 1.3.1"
 gem "heroku"
 
+gem "rspec-rails", :group => [:development, :test]
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
